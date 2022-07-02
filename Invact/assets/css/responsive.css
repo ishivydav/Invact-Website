@@ -1,0 +1,288 @@
+@media(max-width: 1199px) {
+    .footer-widget__links-wrap {
+        padding-right: 40px;
+    }
+    .main-nav__main-navigation {
+        display: none;
+    }
+    .main-nav__logo-box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .main-nav__logo-box .side-menu__toggler {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .stricked-menu {
+        display: none;
+    }
+    .faq-one__shape-3,
+    .cta-three__shape-3,
+    .banner-one__content p br,
+    .banner-one__content h3 br {
+        display: none;
+    }
+    .cta-three__moc {
+        left: -20%;
+    }
+    .cta-three__content {
+        padding-left: 0;
+    }
+    .cta-two__moc {
+        right: -20%;
+    }
+    #testimonials-slider-pager {
+        position: relative;
+        right: 30px;
+    }
+}
+@media(max-width: 991px) {
+    .site-footer__upper {
+        padding-bottom: 60px;
+    }
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+    .sidebar {
+        margin-top: 80px;
+    }
+    .banner-one__moc {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .banner-one .container {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+    .service-one__col {
+        flex: 1 1 33.333%;
+    }
+    .cta-three__moc {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .cta-three__shape-1 {
+        top: 0%;
+    }
+    .cta-two__moc {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    .funfact-one {
+        padding-bottom: 90px;
+    }
+    .pricing-one__single,
+    .funfact-one__single {
+        margin-bottom: 30px;
+    }
+    .app-shot-one {
+        padding-top: 90px;
+    }
+    .app-shot-one .app-shot-one__carousel::before {
+        display: none;
+    }
+    .app-shot-one .app-shot-one__carousel {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    #testimonials-slider-pager {
+        right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+    }
+    .faq-accrodion .accrodion .accrodion-title::before,
+    .faq-accrodion .accrodion .accrodion-title::after {
+        width: 45px;
+        height: 45px;
+        right: 30px;
+    }
+    .faq-accrodion .accrodion .accrodion-content .inner {
+        padding-right: 60px;
+    }
+    .contact-one__content {
+        margin-bottom: 40px;
+    }
+    .contact-one__shape-1 {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    img {
+        max-width: 100%;
+    }
+    .cta-one {
+        padding-top: 25px;
+    }
+    .cta-one__content h3 br {
+        display: none;
+    }
+    [class*=banner-one__shape-] {
+        display: none;
+    }
+    .video-one__content h3 {
+        font-size: 30px;
+    }
+    .video-one__content .video-popup {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 625px) {
+    .site-footer__bottom .inner-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .site-footer__social {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 575px) {
+    .service-one__col {
+        flex: 1 1 50%;
+    }
+    .faq-accrodion .accrodion .accrodion-title {
+        padding-right: 80px;
+    }
+}
+@media(max-width: 480px) {
+    .footer-widget__links-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footer-widget__links-wrap ul + ul {
+        margin-top: 22px;
+    }
+    .cta-one__content h3 {
+        font-size: 38px;
+    }
+    .comment-one__image, .comment-one__content,
+    .author-one__image, .author-one__content {
+        display: block;
+    }
+    .author-one__content {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .author-one__content p {
+        margin-top: 20px;
+    }
+    .comment-one__content {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .faq-accrodion .accrodion::after {
+        transform: translateX(0);
+        font-size: 40px;
+    }
+    #testimonials-slider-pager {
+        width: 430px;
+        height: 430px;
+        background-size: 100%;
+    }
+}
+
+@media(max-width: 425px) {
+    .main-nav__right {
+        display: none;
+    }
+    .main-nav__logo-box {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .service-one__col {
+        flex: 1 1 100%;
+    }
+    .banner-one__content h3 {
+        font-size: 65px;
+        line-height: 1.2em;
+    }
+    .block-title h3 {
+        font-size: 40px;
+    }
+    #testimonials-slider-pager {
+        width: 350px;
+        height: 350px;
+    }
+    .faq-accrodion .accrodion .accrodion-content .inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .faq-accrodion .accrodion .accrodion-title {
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 375px) {
+    .author-one {
+        padding: 30px;
+    }
+    .sidebar-single:not(.sidebar__search) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner-one__content .banner-one__tag-line {
+        font-size: 9px;
+    }
+
+    [class*=faq-one__shape-] {
+        display: none;
+    }
+}
+
+@media(max-width: 320px) {
+    .banner-one__content .banner-one__tag-line {
+        padding-left: 15px;
+    }
+    .banner-one__content .banner-one__tag-line a {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 5px;
+    }
+    .contact-one__infos-single,
+    .cta-three__box {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .cta-three__box-content {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+    .contact-one__infos-content {
+        margin-top: 20px;
+    }
+    .cta-three__box::before {
+        display: none;
+    }
+    .video-one__content .video-popup {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    #testimonials-slider-pager {
+        width: 300px;
+        height: 300px;
+    }
+    .testimonials-slider-pager-one {
+        display: none;
+    }
+}
